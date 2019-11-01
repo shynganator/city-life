@@ -1,0 +1,584 @@
+/* 1171-1280px */
+
+@media screen and (max-width: 1280px) {
+
+  .parallax {
+    display: none;
+  }
+
+  .header-static {
+    display: block;
+    margin-right: 0;
+    width: 45%;
+  }
+
+  .news .container {
+    width: 85%;
+    padding: 0;
+  }
+
+  .news .cont {
+    display: block;
+  }
+
+  .news__block {
+    width: 100%;
+    margin-bottom: 75px;
+  }
+
+  .news__block:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .news__block .news__img-block {
+    background: none;
+    height: auto;
+  }
+
+  .news__img {
+    display: block;
+  }
+
+  .news__text {
+    min-height: 45px;
+  }
+
+}
+
+/* / 1171-1280px */
+
+
+
+/* 901-1170px */
+
+@media screen and (max-width: 1170px) {
+
+  /* Main */
+
+  .container {
+    width: calc(100% - 140px);
+  }
+
+  section {
+    padding: 75px 0;
+  }
+
+  /* / Main */
+
+
+
+  /* Second */
+
+  .cont {
+    flex-direction: column;
+  }
+
+  .cont img {
+    width: 65%;
+  }
+
+  .title {
+    margin-bottom: 45px;
+  }
+
+  .des {
+    max-width: 100%;
+  }
+
+  /* / Second */
+
+
+
+  /* Header */
+
+  .header {
+    background: linear-gradient(77deg, #52c1e9, #2476ad);
+    padding-top: 125px;
+  }
+
+  .header-static {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+
+  .nav {
+    padding: 14px 0;
+  }
+
+  .menu {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    display: none;
+  }
+
+  .menu a {
+    padding: 18px 0;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+  }
+
+  .hero__img {
+    width: 70%;
+    margin-bottom: 100px;
+  }
+
+  .offer, .offer__text {
+    max-width: 100%;
+  }
+
+  .header .btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .clients {
+    margin-top: 65px;
+    flex-direction: column;
+  }
+
+  .clients__block {
+    position: static;
+    width: 75%;
+    margin-bottom: 30px;
+  }
+
+  .clients__title {
+    width: 100%;
+  }
+
+  .clients__arrow {
+    margin-top: 20px;
+  }
+
+  /* / Header */
+
+
+
+  /* About */
+
+  .about {
+    padding-top: 75px;
+  }
+
+  .about__img {
+    margin-bottom: 50px;
+  }
+
+  /* / About */
+
+
+
+  /* Adv */
+
+  .adv__blocks {
+    flex-direction: column;
+  }
+
+  .adv__block {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  /* / Adv */
+
+
+
+  /* Cashback */
+
+  .citylife .tabs__content {
+    flex-direction: column;
+  }
+
+  .citylife .tabs__title {
+    margin-bottom: 15px;
+  }
+  
+  .citylife__block {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+
+  .tabs__cashier .citylife__img,
+  .tabs__pays .citylife__img {
+    margin-right: 0;
+  }
+
+  .citylife .tabs__caption {
+    margin-bottom: 20px;
+  }
+
+  /* / Cashback */
+
+
+
+  /* News */
+
+  .news__img-block .news__img {
+    width: 100%;
+  }
+
+  /* / News */
+
+
+
+  /* Stats */
+
+  .subtitle {
+    width: 100%;
+  }
+
+  .progress-bars {
+    flex-wrap: wrap;
+  }
+  
+  .progress-bar {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .progress {
+    margin: 0 auto;
+  }
+
+  .progress-bar__des {
+    margin-top: 20px;
+  }
+
+  /* / Stats */
+
+
+  /* Partners */
+
+  .partners__download {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .partners__title {
+    margin-bottom: 20px;
+  }
+
+  .partners__links {
+    width: 150px;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .partners__links img {
+    width: 100%;
+  }
+
+  .partners__slider {
+    margin-left: 0;
+  }
+
+  /* / Partners */
+
+
+
+  /* Founder */
+
+  .founder .des {
+    margin-top: 100px;
+  }
+
+  .btns {
+    justify-content: center;
+  }
+
+  .founder__socials {
+    justify-content: center;
+  }
+
+  /* / Founder */
+
+
+
+  /* Footer */
+
+  .footer .container {
+    width: calc(100% - 140px);
+  }
+
+  .menus__title {
+    margin-bottom: 20px;
+  }
+
+  .footer__icons, .founder__socials i {
+    font-size: 24px;
+  }
+
+  /* / Footer */
+
+}
+
+/* / 1090-1170px */
+
+
+/* 901-1090px */
+
+
+@media screen and (max-width: 1090px) {
+
+
+  .citylife .container {
+    width: calc(100% - 140px);
+  }
+
+  .menus {
+    flex-direction: column-reverse;
+  }
+
+  .menus__list {
+    justify-content: center;
+  }
+
+  .menus__links {
+    margin-top: 30px;
+  }
+
+}
+
+/* / 901-1090px */
+
+
+
+/* 769-900px */
+
+@media screen and (max-width: 900px) {
+
+  /* Stats */
+
+  .partners__logos {
+    background-size: 130% 843px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .progress {
+    margin: 0 auto;
+  }
+
+  .progress-bar__des {
+    margin-top: 20px;
+  }
+
+  /* / Stats */
+
+
+  .citylife .tabs__caption {
+    flex-wrap: wrap;
+  }
+
+  .citylife .tabs__title {
+    width: 33%;
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+
+}
+
+/* / 769-900px */
+
+
+@media screen and (max-width: 800px) {
+  .menus__links .menus__list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .partners__logos {
+    background-size: 130% 743px;
+  }
+}
+
+
+
+/* 601-768px */
+
+@media screen and (max-width: 768px) {
+
+  /* Main */
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  /* / Main */
+
+
+
+  /* Header */
+
+  .offer__title {
+    font-size: 33px;
+  }
+
+  /* / Header */
+
+
+
+  /* Footer */
+
+  .apps {
+    flex-direction: column;
+  }
+
+  .cards, .stores {
+    justify-content: center;
+  }
+
+  .cards {
+    margin-bottom: 30px;
+  }
+
+  .bottom {
+    flex-direction: column-reverse;
+  }
+
+  .social-media {
+    margin-bottom: 30px;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  /* / Footer */
+
+}
+
+/* / 601-768px */
+
+
+
+/* ...-600px */
+
+@media screen and (max-width: 600px) {
+
+  /* Main */
+
+  .partners__logos {
+    background-size: 130% 643px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .container {
+    width: calc(100% - 28px);
+  }
+
+  /* / Main */
+
+
+
+  /* Second */
+
+  .title {
+    margin-bottom: 35px;
+  }
+
+  /* / Second */
+
+
+
+  /* Header */
+
+  .hero__img {
+    width: 100%;
+  }
+
+  .clients__block {
+    width: 100%;
+  }
+
+  /* / Header */
+
+
+
+  /* Second */
+
+  .cont img {
+    width: 100%;
+  }
+
+  /* / Second */
+
+
+
+  /* Founder */
+
+  .btns {
+    flex-direction: column;
+  }
+
+  .btns .btn, .btns .btn-o {
+    margin: 0 auto;
+  }
+
+  .btns .btn {
+    margin-bottom: 30px;
+  }
+
+  /* / Founder */
+
+}
+
+/* / ...-600px */
+
+
+
+@media screen and (max-width: 542px) {
+
+  .partners__logos {
+    background-size: 200% 923px;
+  }
+
+  .citylife .tabs__title {
+    width: 50%;
+  }
+
+  .tabs__caption {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tabs__title {
+    margin: 0 0 10px;
+  }
+
+  .citylife .tabs__title {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .partners__logos {
+    background-size: 200% 750px;
+  }
+}
